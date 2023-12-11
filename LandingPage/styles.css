@@ -1,0 +1,78 @@
+
+.header-img{
+    position: absolute;
+    left: 50%;
+    top:50px;
+    flex: 1; /* Take up remaining space */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    
+}
+h1{
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    font-size: 125px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(217, 122, 136);
+    flex: 1; /* Take up remaining space */
+    text-align: right;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+  }
+
+*{
+    background-color: #333;
+    font-family: 'Bebas Neue', sans-serif;
+}
+main{
+    padding: 20px;
+    margin-top: 200px; /* Adjust the margin as needed */
+}
+
+.space{
+    height: 600px;
+}
+
+h2{
+    font-size: 100px;
+    text-align: center;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    color:rgb(217, 122, 136);
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
